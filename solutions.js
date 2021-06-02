@@ -23,11 +23,31 @@
 // Define a function named `isTrue` that takes in any input and returns true if
 //    the input provided is exactly equal to `true` in value and data type.
 function isTrue(input){
-    return input === true;
+    return input === true
 }
 
 function isFalse(value){
-    return value === false;
+    return value === false
 }
+
+function not(input){
+    return !input
+}
+
+function addOne(input){
+    return input + 1
+}
+
+function isEven(input){
+    return (input % 2 == 0)
+}
+
+function isIdentical(value1,value2) {
+    return (value1 == value2)
+}
+
+
+
+
 
 
